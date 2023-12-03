@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "cargo",
+            "name": "run",
+            "cargoArgs": [ "run"],
+        },
+        {
+            "type": "cargo",
+            "name": "fix",
+            "cargoArgs": [ "clippy" ],
+            "cargoExtraArgs": ["--fix", "--bin", "aoc2023", "--allow-dirty", "--allow-staged"],
+        },
+        
+    ]
+}
